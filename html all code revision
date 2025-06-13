@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML Full Revision</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    section { margin-bottom: 30px; border-bottom: 1px solid #ccc; padding-bottom: 10px; }
+    h2 { color: darkblue; }
+  </style>
+</head>
+<body>
+
+  <!-- Headings -->
+  <section>
+    <h2>Headings</h2>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+  </section>
+
+  <!-- Paragraph, Line Break, Horizontal Line -->
+  <section>
+    <h2>Text Elements</h2>
+    <p>This is a paragraph. <br>This is a new line.</p>
+    <hr>
+    <p><b>Bold</b>, <i>Italic</i>, <u>Underline</u>, <mark>Marked</mark>, <small>Small</small>, <del>Deleted</del>, <ins>Inserted</ins></p>
+  </section>
+
+  <!-- Links and Images -->
+  <section>
+    <h2>Links and Images</h2>
+    <a href="https://www.google.com" target="_blank">Go to Google</a><br>
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+  </section>
+
+  <!-- Lists -->
+  <section>
+    <h2>Lists</h2>
+    <h4>Ordered List</h4>
+    <ol>
+      <li>First</li>
+      <li>Second</li>
+    </ol>
+    <h4>Unordered List</h4>
+    <ul>
+      <li>Item A</li>
+      <li>Item B</li>
+    </ul>
+    <h4>Description List</h4>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language</dd>
+    </dl>
+  </section>
+
+  <!-- Tables -->
+  <section>
+    <h2>Table</h2>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Riya</td>
+        <td>20</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Forms -->
+  <section>
+    <h2>Form</h2>
+    <form action="#">
+      Name: <input type="text" name="name"><br>
+      Email: <input type="email" name="email"><br>
+      Password: <input type="password"><br>
+      Gender:
+      <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female<br>
+      Hobbies:
+      <input type="checkbox">Reading
+      <input type="checkbox">Coding<br>
+      <select>
+        <option>India</option>
+        <option>USA</option>
+      </select><br>
+      <textarea rows="3" cols="30">Write something...</textarea><br>
+      <input type="submit">
+    </form>
+  </section>
+
+  <!-- Multimedia -->
+  <section>
+    <h2>Multimedia</h2>
+    <video width="320" height="240" controls>
+      <source src="sample.mp4" type="video/mp4">
+    </video><br>
+    <audio controls>
+      <source src="sample.mp3" type="audio/mp3">
+    </audio>
+  </section>
+
+  <!-- Semantic Tags -->
+  <section>
+    <h2>Semantic Tags</h2>
+    <header><h3>This is header</h3></header>
+    <nav><a href="#">Home</a> | <a href="#">About</a></nav>
+    <main><p>Main content goes here</p></main>
+    <article><p>This is an article</p></article>
+    <aside><p>This is sidebar content</p></aside>
+    <footer><p>Footer content © 2025</p></footer>
+  </section>
+
+</body>
+</html>
